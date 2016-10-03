@@ -1,16 +1,16 @@
 @media screen and (min-width: 30em) {
-    .menu.nav-single-level ul {
+    .nav-single-level ul {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
     }
 
-    .menu.nav-single-level li {
+    .nav-single-level li {
         flex: 1 0 auto;
         text-align: center;
     }
 
-    .menu.nav-single-level li a {
+    .nav-single-level li a {
         border-bottom: none;
     }
 
