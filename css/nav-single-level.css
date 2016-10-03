@@ -1,15 +1,10 @@
 @media screen and (min-width: 30em) {
     .menu.nav-single-level ul {
-        background: #232323;
         display: flex;
     }
 
     .menu.nav-single-level li a {
-        color: #d0d0d0;
         border-bottom: none;
     }
 
-    .menu.nav-single-level li a:hover {
-        background: #2f2f2f;
-    }
 }
