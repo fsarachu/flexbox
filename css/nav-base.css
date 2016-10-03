@@ -15,7 +15,8 @@
     display: block;
     text-decoration: none;
     color: #636363;
-    padding: .6em 1em;
+    padding: 1em 1em;
+    border-bottom: 1px solid rgba(90,90,90,.2);
 }
 
 .menu li a:hover {
