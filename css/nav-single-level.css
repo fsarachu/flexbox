@@ -1,6 +1,7 @@
 @media screen and (min-width: 30em) {
     .menu.nav-single-level ul {
         display: flex;
+        justify-content: center;
     }
 
     .menu.nav-single-level li a {
