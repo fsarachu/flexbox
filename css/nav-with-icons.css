@@ -1,0 +1,37 @@
+/* Advanced Menu */
+
+.nav-with-icons li a {
+    display: flex;
+    width: 100%;
+}
+
+.nav-with-icons .button-icon {
+    flex: 0 0 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.nav-with-icons .button-text {
+    font-size: 1.5rem;
+    /*text-overflow: ellipsis;*/
+    /*overflow: hidden;*/
+    /*white-space: nowrap;*/
+}
+
+@media screen and (min-width: 30em) {
+    .nav-with-icons ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-with-icons li {
+        display: flex;
+        flex: 1 0 11.5rem;
+    }
+
+    .nav-with-icons li a {
+        justify-content: center;
+    }
+
+}

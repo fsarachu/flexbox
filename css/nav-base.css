@@ -19,10 +19,10 @@
 }
 
 .menu li a:hover {
-    background: #fafafa;
+    background: #e1e1e1;
 }
 
-@media screen and (max-width: 30em) {
+@media screen and (max-width: 29.99em) {
     .menu li a {
         border-bottom: 1px solid rgba(90, 90, 90, .2);
     }
