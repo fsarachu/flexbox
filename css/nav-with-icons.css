@@ -13,9 +13,6 @@
 
 .nav-with-icons .button-text {
     font-size: 1.5rem;
-    /*text-overflow: ellipsis;*/
-    /*overflow: hidden;*/
-    /*white-space: nowrap;*/
 }
 
 @media screen and (min-width: 30em) {
