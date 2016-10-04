@@ -1,6 +1,8 @@
+/* Cards styling */
+
 .card {
     background: white;
-    margin: 2rem;
+    margin: 2rem 0;
 }
 
 .card a {
@@ -40,4 +42,36 @@
 .card-content p {
     font-size: 0.95rem;
     color: #686868;
+}
+
+/* Flex Layout */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media only screen and (min-width: 30em) and (max-width: 40em) {
+    .card {
+        flex: 0 1 calc(50% - 1rem);
+    }
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    .card {
+        flex: 0 1 calc(33% - 1rem);
+    }
+}
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+    .card {
+        flex: 0 1 calc(25% - 1rem);
+    }
+}
+
+@media only screen and (min-width: 90.063em) {
+    .card {
+        flex: 0 1 calc(20% - 1rem);
+    }
 }
