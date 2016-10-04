@@ -16,10 +16,11 @@
     text-decoration: none;
     color: #636363;
     padding: 1em 1em;
+    transition: background-color .15s ease-in;
 }
 
 .menu li a:hover {
-    background: #e1e1e1;
+    background: #f4f4f4;
 }
 
 @media screen and (max-width: 29.99em) {
