@@ -2,7 +2,6 @@
 
 .nav-with-icons li a {
     display: flex;
-    /*width: 100%;*/
 }
 
 .nav-with-icons .button-icon {
